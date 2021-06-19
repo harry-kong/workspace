@@ -12,3 +12,4 @@ git config --global https.proxy 'socks5://127.0.0.1:10808'
 git config --global --list	#查询代理设置
 
 这里是关于分支的探索，如果这里走向了另一条道路，那么就会产生分支。
+分支是从main而来的，而合并之后，分支会替换掉main成为新的main
