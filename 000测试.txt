@@ -11,5 +11,4 @@ git config --global http.proxy 'socks5://127.0.0.1:10808'
 git config --global https.proxy 'socks5://127.0.0.1:10808'
 git config --global --list	#查询代理设置
 
-配置完成之后，再次修改完成，暂存、提交的速度很快，完成git的初步配置，可以正常使用了；
-其他的功能还在探索中。
+这里是关于分支的探索，如果这里走向了另一条道路，那么就会产生分支。
