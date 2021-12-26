@@ -7,9 +7,10 @@
 使用git命令\cmd\poewrshell 
 
 设置V2ray代理
-git config --global https.proxy http://127.0.0.1:1080	
-git config --global https.proxy https://127.0.0.1:1080
-
+git config --global https.proxy http://127.0.0.1:10809	
+git config --global https.proxy https://127.0.0.1:10809
+git config --global http.proxy 'socks5://127.0.0.1:10808'
+git config --global https.proxy 'socks5://127.0.0.1:10808'
 #注意：监听端口与代理端口设置
 git config --global --list	#查询代理设置
 
