@@ -3,12 +3,14 @@
 环境配置，VSCODE下好了之后，下载GIT；这个问题基本上就解决了。
 利用VSCODE拉取和提交都很简单。
 
-网络代理问题比较复杂，查阅资料 git命令\cmd\poewrshell 设置V2ray代理
+网络代理问题比较复杂，查阅资料 
+使用git命令\cmd\poewrshell 
+
+设置V2ray代理
 git config --global https.proxy http://127.0.0.1:10808	
 git config --global https.proxy https://127.0.0.1:10808
 
-git config --global http.proxy 'socks5://127.0.0.1:62839'
-git config --global https.proxy 'socks5://127.0.0.1:62839'
+#注意：监听端口与代理端口设置
 git config --global --list	#查询代理设置
 
 git config --global http.proxy
