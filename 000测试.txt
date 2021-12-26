@@ -6,9 +6,15 @@
 网络代理问题比较复杂，查阅资料 git命令\cmd\poewrshell 设置V2ray代理
 git config --global https.proxy http://127.0.0.1:10809	
 git config --global https.proxy https://127.0.0.1:10809
+
+git config --global https.proxy http://127.0.0.1:62839
+git config --global https.proxy https://127.0.0.1:62839
 git config --global http.proxy 'socks5://127.0.0.1:10808'
 git config --global https.proxy 'socks5://127.0.0.1:10808'
 git config --global --list	#查询代理设置
+
+git config --global http.proxy
+git config --global https.proxy #查询动态代理
 
 这里是关于分支的探索，如果这里走向了另一条道路，那么就会产生分支。
 分支是从main而来的，而合并之后，分支内容会替换掉旧main内容，成为更新的main。
